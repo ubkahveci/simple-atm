@@ -1,4 +1,4 @@
-package simple_atm_project;
+package simple_atm;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

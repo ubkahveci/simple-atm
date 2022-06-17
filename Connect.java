@@ -1,4 +1,4 @@
-package simple_atm_project;
+package simple_atm;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +15,7 @@ public class Connect {
 		Statement statement = null;
 		try {
 			// establish connection object using credentials
-			Connection conn = DriverManager.getConnection(url, "root", "Revolution90.");
+			Connection conn = DriverManager.getConnection(url, "username", "password");
 
 			// create a statement object to send queries to the database
 			statement = conn.createStatement();
